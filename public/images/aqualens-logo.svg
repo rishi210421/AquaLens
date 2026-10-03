@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" fill="none">
+  <defs>
+    <!-- Dark Navy Outer Arch Gradient -->
+    <linearGradient id="al-outer-arch" x1="120" y1="380" x2="260" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F2D3D" />
+      <stop offset="40%" stop-color="#163F56" />
+      <stop offset="80%" stop-color="#1B5573" />
+      <stop offset="100%" stop-color="#247896" />
+    </linearGradient>
+
+    <!-- Top Apex Wave / Turquoise Crest Gradient -->
+    <linearGradient id="al-top-crest" x1="200" y1="80" x2="310" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E6B87" />
+      <stop offset="40%" stop-color="#2C91A8" />
+      <stop offset="75%" stop-color="#3EB8BF" />
+      <stop offset="100%" stop-color="#55C9C4" />
+    </linearGradient>
+
+    <!-- Left Leg Ribbon Layers -->
+    <linearGradient id="al-ribbon-dark" x1="130" y1="360" x2="220" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E2F40" />
+      <stop offset="60%" stop-color="#164A66" />
+      <stop offset="100%" stop-color="#1C658A" />
+    </linearGradient>
+
+    <linearGradient id="al-ribbon-mid" x1="160" y1="340" x2="270" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1C658A" />
+      <stop offset="50%" stop-color="#258CB2" />
+      <stop offset="100%" stop-color="#3AB3D4" />
+    </linearGradient>
+
+    <linearGradient id="al-ribbon-light" x1="180" y1="330" x2="340" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38A8CB" />
+      <stop offset="40%" stop-color="#59C4E0" />
+      <stop offset="80%" stop-color="#80DCED" />
+      <stop offset="100%" stop-color="#AEEAF5" />
+    </linearGradient>
+
+    <!-- Sweeping Bottom River Bed & Streams -->
+    <linearGradient id="al-river-base" x1="100" y1="410" x2="380" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#113346" />
+      <stop offset="35%" stop-color="#185675" />
+      <stop offset="70%" stop-color="#20779E" />
+      <stop offset="100%" stop-color="#2B9CC4" />
+    </linearGradient>
+
+    <linearGradient id="al-river-current-1" x1="170" y1="300" x2="390" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4FBED9" />
+      <stop offset="50%" stop-color="#329FBE" />
+      <stop offset="100%" stop-color="#217999" />
+    </linearGradient>
+
+    <linearGradient id="al-river-current-2" x1="190" y1="320" x2="380" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9DE5F4" />
+      <stop offset="40%" stop-color="#59C2DB" />
+      <stop offset="85%" stop-color="#3697B7" />
+      <stop offset="100%" stop-color="#216D8C" />
+    </linearGradient>
+
+    <!-- Lens Circular Frame Gradient -->
+    <linearGradient id="al-lens-rim" x1="210" y1="150" x2="340" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0C2533" />
+      <stop offset="45%" stop-color="#143C4F" />
+      <stop offset="80%" stop-color="#0F2D3D" />
+      <stop offset="100%" stop-color="#081A24" />
+    </linearGradient>
+
+    <!-- Lens Internal Sky -->
+    <linearGradient id="al-sky" x1="275" y1="160" x2="275" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EAF5FA" />
+      <stop offset="55%" stop-color="#D2EDF7" />
+      <stop offset="100%" stop-color="#B8E1F0" />
+    </linearGradient>
+
+    <!-- Lens Internal Water -->
+    <linearGradient id="al-inner-water" x1="275" y1="240" x2="275" y2="305" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6DBDD4" />
+      <stop offset="40%" stop-color="#4AA8C4" />
+      <stop offset="100%" stop-color="#287F9E" />
+    </linearGradient>
+
+    <!-- Ecological Leaf Gradients -->
+    <linearGradient id="al-leaf-left" x1="330" y1="350" x2="385" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#275C41" />
+      <stop offset="30%" stop-color="#3D8B57" />
+      <stop offset="70%" stop-color="#56AA6E" />
+      <stop offset="100%" stop-color="#6FBE7D" />
+    </linearGradient>
+
+    <linearGradient id="al-leaf-right" x1="365" y1="360" x2="395" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1B422F" />
+      <stop offset="40%" stop-color="#26613F" />
+      <stop offset="80%" stop-color="#377F52" />
+      <stop offset="100%" stop-color="#4B9A64" />
+    </linearGradient>
+
+    <!-- Clip Path for Inside the Round Lens -->
+    <clipPath id="al-lens-clip">
+      <circle cx="275" cy="236" r="61" />
+    </clipPath>
+  </defs>
+
+  <!-- ========================================== -->
+  <!-- 1. BACK / OUTER ARCH & MAIN APEX OF THE "A" -->
+  <!-- ========================================== -->
+  
+  <!-- Outer deep blue silhouette of the left arch -->
+  <path d="M90 415 C105 385 130 330 160 260 C195 180 230 100 248 76 C256 66 270 70 286 98 C302 125 310 148 308 156 C303 162 292 152 284 140 C274 125 264 105 252 95 C236 115 198 210 168 282 C142 344 116 395 90 415 Z" fill="url(#al-outer-arch)" />
+
+  <!-- Top swooping wave crest at the apex of "A" -->
+  <path d="M246 76 C255 64 268 68 284 94 C300 120 312 146 308 155 C304 163 294 152 284 140 C272 124 262 108 248 94 C242 88 244 80 246 76 Z" fill="url(#al-top-crest)" />
+
+  <!-- Left lower arch base fill for stability -->
+  <path d="M90 415 C108 380 135 345 160 315 C175 335 160 375 140 405 C122 418 102 418 90 415 Z" fill="#0C2636" />
+
+  <!-- ========================================== -->
+  <!-- 2. THE RIGHT ECOLOGICAL LEAF -->
+  <!-- ========================================== -->
+
+  <!-- Right side of the leaf (deeper shade) -->
+  <path d="M344 330 C360 300 378 260 384 210 C392 245 394 285 388 322 C382 350 368 370 348 376 C344 360 344 345 344 330 Z" fill="url(#al-leaf-right)" />
+
+  <!-- Left side of the leaf (vibrant fresh green) -->
+  <path d="M344 330 C344 345 344 360 348 376 C332 355 330 325 335 290 C342 250 362 222 384 210 C376 255 358 295 344 330 Z" fill="url(#al-leaf-left)" />
+
+  <!-- Leaf center vein highlight -->
+  <path d="M346 370 C350 340 362 290 382 215" stroke="#7BD48F" stroke-width="1.75" stroke-linecap="round" stroke-opacity="0.8" />
+
+
+  <!-- ========================================== -->
+  <!-- 3. CENTRAL CIRCULAR LENS / VIEWPORT -->
+  <!-- ========================================== -->
+
+  <!-- Outer Lens Rim / Bezel Base Shadow -->
+  <circle cx="275" cy="236" r="71" fill="url(#al-lens-rim)" />
+  <circle cx="275" cy="236" r="63.5" fill="#0A212D" />
+
+  <!-- Inside Lens Ecosystem Artwork (Clipped) -->
+  <g clip-path="url(#al-lens-clip)">
+    <!-- Sky -->
+    <rect x="200" y="160" width="150" height="150" fill="url(#al-sky)" />
+
+    <!-- Sun with soft glow -->
+    <circle cx="295" cy="202" r="14" fill="#FFFFFF" fill-opacity="0.4" />
+    <circle cx="295" cy="202" r="8" fill="#FFFFFF" fill-opacity="0.9" />
+
+    <!-- Distant City Skyline Silhouettes -->
+    <!-- Tower 1 -->
+    <rect x="250" y="206" width="9" height="34" fill="#88B4C7" rx="1" />
+    <!-- Tower 2 -->
+    <rect x="261" y="196" width="11" height="44" fill="#75A6BB" rx="1" />
+    <!-- Building 3 (Angled / step) -->
+    <polygon points="274,212 284,212 284,240 274,240" fill="#8BB7CA" />
+    <!-- Tower 4 (Spire) -->
+    <rect x="286" y="218" width="8" height="22" fill="#99C3D6" rx="1" />
+    <line x1="290" y1="218" x2="290" y2="214" stroke="#99C3D6" stroke-width="1.5" />
+    <!-- Tower 5 -->
+    <rect x="315" y="210" width="12" height="30" fill="#7BA8BD" rx="1" />
+    <rect x="306" y="222" width="7" height="18" fill="#8BB5C9" />
+
+    <!-- Distant Arched River Bridge -->
+    <path d="M236 242 C260 241 290 241 316 242 L316 248 C298 248 294 243 286 243 C278 243 274 248 256 248 L236 248 Z" fill="#5A8396" />
+    <!-- Bridge Arch Cutout -->
+    <path d="M266 248 C266 243 273 241 280 241 C287 241 294 243 294 248 Z" fill="#427387" />
+
+    <!-- River Water Inside Lens -->
+    <path d="M214 246 C240 244 310 244 336 246 L336 305 L214 305 Z" fill="url(#al-inner-water)" />
+
+    <!-- Left Riverbank Greenery -->
+    <path d="M214 244 C225 242 238 245 244 252 C248 257 245 264 235 266 C225 268 218 266 214 263 Z" fill="#2E795B" />
+    <path d="M220 248 C228 246 238 248 242 254 C245 258 240 264 232 265 Z" fill="#3D9973" />
+    <circle cx="226" cy="245" r="7" fill="#4EAC85" />
+    <circle cx="235" cy="248" r="6" fill="#3C916F" />
+    <circle cx="221" cy="254" r="7" fill="#2E7859" />
+
+    <!-- Right Riverbank Greenery -->
+    <path d="M336 245 C326 243 314 246 308 253 C304 258 308 265 318 267 C327 268 333 266 336 264 Z" fill="#2C7759" />
+    <path d="M330 248 C322 246 312 249 309 255 C306 259 312 264 320 265 Z" fill="#3C9671" />
+    <circle cx="324" cy="246" r="7" fill="#4AA882" />
+    <circle cx="315" cy="249" r="6" fill="#388D6C" />
+    <circle cx="329" cy="255" r="7" fill="#2B7456" />
+
+    <!-- Internal River Water Streams / Ripples -->
+    <path d="M255 254 C270 252 288 253 302 254" stroke="#87D4E8" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.85" />
+    <path d="M246 263 C265 261 285 262 308 263" stroke="#B1E6F3" stroke-width="1.8" stroke-linecap="round" stroke-opacity="0.9" />
+    <path d="M252 273 C268 271 288 272 306 274" stroke="#71C9DF" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.8" />
+    <path d="M258 285 C272 283 286 284 300 286" stroke="#A6E4F2" stroke-width="1.6" stroke-linecap="round" stroke-opacity="0.85" />
+
+    <!-- Curved Reflection Highlight on Glass (Top Left) -->
+    <path d="M230 196 C245 182 268 177 292 180 C290 186 272 188 256 195 C242 201 234 212 228 222 C226 212 227 202 230 196 Z" fill="#FFFFFF" fill-opacity="0.35" />
+  </g>
+
+  <!-- Fine Inner Rim Border of the Lens -->
+  <circle cx="275" cy="236" r="61" stroke="#0E3345" stroke-width="2.5" />
+  <circle cx="275" cy="236" r="59.5" stroke="#3AB0CF" stroke-width="1" stroke-opacity="0.4" />
+
+
+  <!-- ========================================== -->
+  <!-- 4. FLOWING HYDRODYNAMIC RIVER CHANNEL RIBBONS -->
+  <!-- (Sweeps from left arm, wraps under lens to right) -->
+  <!-- ========================================== -->
+
+  <!-- Deep Under-River Shadow / Bed Foundation -->
+  <path d="M142 355 C165 320 190 285 204 250 C210 270 216 295 228 318 C244 345 280 358 325 365 C345 368 370 385 390 418 C375 423 355 425 328 423 C270 418 215 398 170 375 C155 368 145 360 142 355 Z" fill="url(#al-river-base)" />
+
+  <!-- Primary Middle Water Flow Ribbon -->
+  <path d="M168 282 C184 246 202 205 212 170 C218 195 222 235 224 265 C226 290 234 314 248 332 C265 352 292 360 326 366 C352 371 372 386 388 418 C378 422 364 424 344 422 C302 417 266 405 235 385 C204 365 185 330 172 298 Z" fill="url(#al-ribbon-mid)" />
+
+  <!-- Bright Aqua Surface Stream Streamline -->
+  <path d="M204 246 C210 220 215 190 218 165 C222 190 226 225 228 255 C230 285 240 312 256 332 C274 354 302 364 336 368 C360 372 376 386 388 415 C376 418 360 417 342 411 C312 400 285 385 262 366 C238 346 220 315 208 275 Z" fill="url(#al-ribbon-light)" />
+
+  <!-- Lower Meandering Rapids Currents (Front) -->
+  <path d="M164 322 C188 344 218 366 254 384 C290 402 334 416 385 418 C372 423 352 424 332 421 C290 415 250 398 216 376 C186 356 166 334 164 322 Z" fill="url(#al-river-current-1)" />
+
+  <!-- Distinct Crisp White / Cyan Wave Foam Highlights -->
+  <path d="M208 272 C220 302 238 330 262 352 C286 374 318 388 358 398 C374 402 385 408 388 415" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-opacity="0.85" />
+  
+  <path d="M224 290 C234 315 250 338 272 356 C296 376 326 388 362 396" stroke="#C2F3FD" stroke-width="2" stroke-linecap="round" stroke-opacity="0.9" />
+
+  <path d="M182 340 C210 365 245 386 286 400 C322 412 354 416 376 418" stroke="#7FE0F4" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.75" />
+
+  <!-- River Estuary Delta Runoff Riblets (Bottom Right Outflow) -->
+  <path d="M315 412 C338 416 360 417 380 418" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.95" />
+  <path d="M332 420 C348 422 366 423 384 422" stroke="#9EE9F7" stroke-width="1.8" stroke-linecap="round" stroke-opacity="0.8" />
+  <path d="M348 426 C360 427 374 427 386 425" stroke="#48B8D4" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.7" />
+</svg>

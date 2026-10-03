@@ -1,0 +1,6 @@
+{
+  "name": "AquaLens",
+  "description": "From stream data to actionable One Health intelligence. Turn citizen and environmental data into confidence-aware stream health insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
